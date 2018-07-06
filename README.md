@@ -6,11 +6,23 @@ This fork has no dependencies.
 ```
 <div id="qrcode"></div>
 <script type="text/javascript">
-	document.getElementById("container").innerHTML = QRCode("Ello ello! I am an inline SVG!");
+	document.getElementById("qrcode").innerHTML = QRCode("Ello ello! I am an inline SVG!");
 </script>
 ```
 
-No options for this fork (at least currently).
+You can set the error correction as the second argument:
+```
+QRCode("Ello ello! I am an inline SVG!", QRCode.CorrectLevel.M);
+```
+
+Set the width and height of the QR code with regular ol fashioned CSS:
+```
+#qrcode{
+	width:256px;
+	height:256px;
+	background:#FFF;
+}
+```
 
 ## Browser Compatibility
 No idea :D

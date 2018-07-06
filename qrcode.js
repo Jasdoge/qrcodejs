@@ -212,9 +212,7 @@ var QRCode;
 		
 		// Build the QR code
 		let xy = code.modules.length;
-		let out = '<svg viewbox=\"0 0 '+xy+' '+xy+'\" shape-rendering=\"optimizeSpeed\">'+
-			'<rect width='+xy+' height='+xy+' style=\"fill:#FFF\"></rect>'
-		;
+		let out = '<svg viewbox=\"0 0 '+xy+' '+xy+'\" shape-rendering=\"optimizeSpeed\">';
 		for(let y = 0; y<code.modules.length; ++y){
 			let module = code.modules[y];
 			for(let x = 0; x<module.length; ++x){
