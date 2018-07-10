@@ -1,5 +1,5 @@
-# QRCode.js
-This is a fork of QRCode.js javascript library for making QRCode. This one simply takes in a bit of text and outputs an inline SVG. That's it.
+# QRCode.js - SVG Simplification
+This is a fork of QRCode.js javascript library for making QR Codes. This one simply takes in a bit of text and outputs an inline SVG. That's it.
 This fork has no dependencies.
 
 ## Basic Usages
